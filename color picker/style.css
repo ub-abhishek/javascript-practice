@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.h1 {
+    font-family: Open Sans;
+    font-weight: bold;
+
+}
+
+.card {
+    background-color: #222222;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-family: Open Sans;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.btn-1 {
+    background-color: #e0e0e0;
+    font-family: Open Sans;
+    border-radius: 8px;
+    padding: 24px;
+    border-style: solid;
+    border-color: #000000;
+
+
+}
+
+.btn-2 {
+    background-color: #6fcf97;
+    font-family: Open Sans;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 24px;
+}
+
+.btn-3 {
+    background-color: #56ccf2;
+    font-family: Open Sans;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 24px;
+}
+
+.btn-4 {
+    background-color: #bb6bd9;
+    font-family: Open Sans;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 24px;
+}
+
+.para {
+    font-family: Open Sans;
+}
+
+
+.main-bg {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#selectedColorHexCode {
+    color: #49a6e9;
+}
