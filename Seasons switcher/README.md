@@ -1,49 +1,59 @@
-#SEASONS SWITCHER
-Step 1: Grab the images
+# 🎨 SEASONS SWITCHER - JS OVERVIEW
+
+---
+
+### Step 1: Grab the images
+
+```javascript
 let small_img = document.getElementById("seasonSmallImage");
 let medium_img = document.getElementById("seasonMediumImage");
+```
 
-Explanation:
+**Explanation:**
 
-small_img → the image element for small screens.
+* `small_img` → image element for **small screens**
+* `medium_img` → image element for **medium+ screens**
+* `document.getElementById("idName")` → grabs the element so JS can manipulate it
 
-medium_img → the image element for medium+ screens.
+---
 
-document.getElementById("idName") → finds the HTML element with that ID so JS can manipulate it.
+### Step 2: Functions for each season
 
-Step 2: Create functions for each season button
+```javascript
 function btn_1() {
     small_img.src = "spring-small-img-url";
     medium_img.src = "spring-medium-img-url";
 }
+
 function btn_2() {
     small_img.src = "summer-small-img-url";
     medium_img.src = "summer-medium-img-url";
 }
+
 function btn_3() {
     small_img.src = "autumn-small-img-url";
     medium_img.src = "autumn-medium-img-url";
 }
+
 function btn_4() {
     small_img.src = "winter-small-img-url";
     medium_img.src = "winter-medium-img-url";
 }
+```
 
+**What this does:**
 
-What this does:
+* Runs when a button is clicked
+* `small_img.src` → changes small-screen image
+* `medium_img.src` → changes medium+ image
+* Instant visual update of the season images
 
-Each function runs when its respective button is clicked.
+---
 
-small_img.src → changes the image for small screens.
+### Step 3: How it works
 
-medium_img.src → changes the image for medium+ screens.
+1. Click a season button → triggers the corresponding function
+2. JS updates the `src` attributes for both images
+3. Page instantly shows the selected season
 
-Updating src instantly changes what image is displayed on the page.
-
-Step 3: How it works
-
-Button clicked → triggers the corresponding function.
-
-JS updates the src attributes of both images.
-
-Page reflects the new season images instantly.
+---
